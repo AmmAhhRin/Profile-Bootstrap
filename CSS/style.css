@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+.carousel-inner .carousel-item{
+    height: 60.2vh;
+    width: 100%;
+}
+.carousel-caption h5{
+    font-size: 4.3vw;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    opacity: 80%;
+}
+
+.carousel-caption p{
+    font-size: 1.2vw;
+    background-color: dimgray;
+    opacity: 70%;
+    height: 4vh;
+    width: fit-content;
+    margin-left: 11vw;
+}
+.navbar{
+    height: auto;
+    width: 100%;
+}
+.nav-item{
+    font-size: 1.2vw;
+    font-family: 'Poppins', sans-serif;
+    height: 5vh;
+    margin-left: 2vw;
+}
+.body-container{
+    margin: 3vw;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+}
+.body-content{
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    width: 65%;
+}
+.main .card{
+    height: 68vh;
+    margin-left: 3.5vh;
+    margin-right: 3.5vh;
+    justify-content: left;
+    background-color: rgb(211, 206, 206);
+    box-shadow: rgb(209, 206, 206) 1px 0px 8px 2px;
+}
+.body-container h3{
+    font-size: 2.8vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+    margin-left: 25.5vw;
+}
+.card-body h5{
+    font-size: 1.7vw;
+    font-weight: bold;
+}
+.card-body p{
+    font-size: 1.2vw;
+}
+.about-me{
+    margin-left: 5vw;
+    text-align: center;
+    width: 25%;
+}
+.about-me .btn{
+    width: 8vw;
+    height: 6vh;
+    font-size: 1.05vw;
+    font-weight: bold;
+}
+.gallery-container{
+    width: 100%;   
+}
+.gallery{
+    margin-top: 15vh;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    width: 90%;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(211, 206, 206);
+    border-top-left-radius: 7vw;
+    box-shadow: rgb(209, 206, 206) 1vw 0vw .5vw .1vw;  
+}
+.gallery h3{
+    font-size: 2.8vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    padding-top: 5vh;
+    color: black;
+}
+.gal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5vw;
+
+}
+.gal-top{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    text-align: center;
+    
+}
+.gal-bot{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    width: 85%;
+}
+.gal-top img{
+    padding-top: 2vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    width: 20vw;
+    height: 28vh;
+}
+.gal-top h5{
+    font-size: 1.2vw;
+}
+.gal-bot img{
+    padding-top: 2vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    width: 20vw;
+    height: 28vh;
+}
+.gal-bot h5{
+    font-size: 1.2vw;
+}
+.footer-container{
+    margin-top: 5vh;
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    flex-direction: column;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(211, 206, 206);
+    height: 15vw;
+    width: 100%;
+    /* align-items: center; */
+}
+.footer-content .icon ul li {
+    list-style-type: none;
+    padding-left:2vw;
+    padding-right: 2vw;
+}
+.footer-content .icon ul{
+    display: flex;
+    flex-direction: row;
+}
+.footer-container .info ul li{
+    list-style-type: none;
+    padding-left: 2.05vw;
+    font-size: 1.3vw;
+}
+.footer-container .info ul{
+    display: flex;
+    flex-direction: row;
+}
+.info ul li:hover{
+    color: crimson;
+    font-weight: bold;
+}
+.icon{
+    margin-top: 8.5vh;
+    margin-left: 31vw;
+}
+.info{
+    margin-left: 32.9vw;
+}
+.icon ul li i{
+    font-size: 3.5vw;
+}
+.icon ul li i:hover{
+    color: crimson;
+}
+.cp-right{
+    margin-top: 1.8vh;
+    text-align: center;
+}
+.cp-right p{
+    font-size: 1vw;
+}
+
+
+
